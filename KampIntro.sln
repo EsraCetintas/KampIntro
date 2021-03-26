@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Dongul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{DD6E6A58-A0E0-4027-9331-B9E1B11F0D44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "..\ClassMetotDemo\ClassMetotDemo\ClassMetotDemo.csproj", "{C8813BEC-2345-414B-BF1B-E57022B651A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DD6E6A58-A0E0-4027-9331-B9E1B11F0D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6E6A58-A0E0-4027-9331-B9E1B11F0D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6E6A58-A0E0-4027-9331-B9E1B11F0D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8813BEC-2345-414B-BF1B-E57022B651A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8813BEC-2345-414B-BF1B-E57022B651A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8813BEC-2345-414B-BF1B-E57022B651A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8813BEC-2345-414B-BF1B-E57022B651A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
