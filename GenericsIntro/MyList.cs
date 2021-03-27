@@ -6,20 +6,26 @@ namespace GenericsIntro
 {
     class MyList<T>
     {
-        T[] items;
+        T[] array;
         public MyList()
         {
-            items = new T[0];
+            array = new T[0];
         }
         public void Add(T item)
         {
-            T[] tempArray = items;
-            items = new T[items.Length + 1];
+            T[] tempArray = array;
+            array = new T[array.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
-                items[i] = tempArray[i];
+                array[i] = tempArray[i];
             }
-            items[items.Length - 1] = item;
+            array[array.Length - 1] = item;
         }
+
+        public int Count
+        {
+            get { return array.Length; }
+        }
+
     }
 }
