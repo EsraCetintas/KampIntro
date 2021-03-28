@@ -36,6 +36,7 @@ namespace ClassIntro
             {
                 Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen);
             }
+
         }
     }
 }
